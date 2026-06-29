@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:noNamespaceSchemaLocation="https://murielfossi-asu.github.io/cse445-assignment4/NationalParks.xsd">
-  <NationalPark Rating="4.9">
+  <NationalPark NearestAirport="FlagStaff" Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
     <Phone>888-297-2757</Phone>
     <Phone>866-499-2574</Phone>
-    <Address NearestAirport="FlagStaff">
+    <Address>
       <Number>8</Number>
       <Street>S Entrance Road</Street>
       <City>Grand Canyon</City>
@@ -14,11 +14,11 @@
       <Zip>86023</Zip>
     </Address>
   </NationalPark>
-  <NationalPark Rating="4.8">
+  <NationalPark NearestAirport="JAC" Rating="4.8">
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
     <Phone>307-344-2107</Phone>
-    <Address NearestAirport="JAC">
+    <Address>
       <Number>1</Number>
       <Street>Grand Loop Road</Street>
       <City>Yellowstone National Park</City>
@@ -26,11 +26,11 @@
       <Zip>82190</Zip>
     </Address>
   </NationalPark>
-  <NationalPark Rating="4.9">
+  <NationalPark NearestAirport="FAT" Rating="4.9">
     <Name>Yosemite</Name>
     <Phone>209-372-0200</Phone>
     <Phone>209-379-1888</Phone>
-    <Address NearestAirport="FAT">
+    <Address>
       <Number>9000</Number>
       <Street>El Portal Road</Street>
       <City>El Portal</City>
@@ -38,10 +38,10 @@
       <Zip>95318</Zip>
     </Address>
   </NationalPark>
-  <NationalPark Rating="4.7">
+  <NationalPark NearestAirport="SGU" Rating="4.7">
     <Name>Zion</Name>
     <Phone>435-772-3256</Phone>
-    <Address NearestAirport="SGU">
+    <Address>
       <Number>1</Number>
       <Street>Zion Park Blvd</Street>
       <City>Springdale</City>
@@ -49,10 +49,10 @@
       <Zip>84767</Zip>
     </Address>
   </NationalPark>
-  <NationalPark>
+  <NationalPark NearestAirport="TYS">
     <Name>Great Smoky Mountains</Name>
     <Phone>865-436-1200</Phone>
-    <Address NearestAirport="TYS">
+    <Address>
       <Number>107</Number>
       <Street>Park Headquarters Road</Street>
       <City>Gatlinburg</City>
@@ -60,10 +60,10 @@
       <Zip>37738</Zip>
     </Address>
   </NationalPark>
-  <NationalPark Rating="4.8">
+  <NationalPark NearestAirport="FCA" Rating="4.8">
     <Name>Glacier</Name>
     <Phone>406-888-7800</Phone>
-    <Address NearestAirport="FCA">
+    <Address>
       <Number>64</Number>
       <Street>Grinnell Drive</Street>
       <City>West Glacier</City>
@@ -71,11 +71,11 @@
       <Zip>59936</Zip>
     </Address>
   </NationalPark>
-  <NationalPark>
+  <NationalPark NearestAirport="DEN">
     <Name>Rocky Mountain</Name>
     <Phone>970-586-1206</Phone>
     <Phone>970-627-3471</Phone>
-    <Address NearestAirport="DEN">
+    <Address>
       <Number>1000</Number>
       <Street>US Highway 36</Street>
       <City>Estes Park</City>
@@ -83,10 +83,10 @@
       <Zip>80517</Zip>
     </Address>
   </NationalPark>
-  <NationalPark Rating="4.7">
+  <NationalPark NearestAirport="SEA" Rating="4.7">
     <Name>Olympic</Name>
     <Phone>360-565-3130</Phone>
-    <Address NearestAirport="SEA">
+    <Address>
       <Number>3002</Number>
       <Street>Mount Angeles Road</Street>
       <City>Port Angeles</City>
@@ -94,11 +94,11 @@
       <Zip>98362</Zip>
     </Address>
   </NationalPark>
-  <NationalPark>
+  <NationalPark NearestAirport="BGR">
     <Name>Acadia</Name>
     <Phone>207-288-3338</Phone>
     <Phone>207-288-8832</Phone>
-    <Address NearestAirport="BGR">
+    <Address>
       <Number>25</Number>
       <Street>Visitor Center Road</Street>
       <City>Bar Harbor</City>
@@ -106,10 +106,10 @@
       <Zip>04609</Zip>
     </Address>
   </NationalPark>
-  <NationalPark Rating="4.8">
+  <NationalPark NearestAirport="JAC" Rating="4.8">
     <Name>Grand Teton</Name>
     <Phone>307-739-3300</Phone>
-    <Address NearestAirport="JAC">
+    <Address>
       <Number>103</Number>
       <Street>Headquarters Loop</Street>
       <City>Moose</City>
@@ -117,10 +117,10 @@
       <Zip>83012</Zip>
     </Address>
   </NationalPark>
-  <NationalPark Rating="4.7">
+  <NationalPark NearestAirport="SGU" Rating="4.7">
     <Name>Bryce Canyon</Name>
     <Phone>435-834-5322</Phone>
-    <Address NearestAirport="SGU">
+    <Address>
       <Number>1</Number>
       <Street>Bryce Canyon National Park</Street>
       <City>Bryce</City>
